@@ -58,7 +58,7 @@ cite, small { display: block; font-size: 85%; opacity: .6; }
 /* Logo */
 header { display: flex; padding-top: 4em; padding-bottom: 6.5em; position: static; z-index: 10; }
 #site-name { font-size: 0; }
-#site-name img { width: 84px; max-width: 84px; }
+#site-name img { width: 150px; max-width: 150px; }
 
 /* Navigation & Illustration */
 nav { align-self: center; margin-left: 10vw; font-size: 1em; }
@@ -168,7 +168,7 @@ footer h3 { font-size: 1.15em; }
 footer h3, footer a, footer li a:hover { color: white; font-weight: normal; font-family: "chalet-london-sixty", sans-serif; }
 footer ul { line-height: 2.4; font-size: 0.9em; }
 footer li a { color: #787BA4; }
-footer div > img { width: 50px; margin: 0 0 2em; }
+footer div > img { height:150px; width: 150px; margin: 0 0 2em; }
 .social-circles { display: flex; padding: 4em 0 2em; }
 .social-circles a { background: var(--blue); border-radius: 50%; display: block; width: 24px; height: 24px; line-height: 24px; text-align: center; margin: 0 1em 0 0; }
 .social-circles img { display: inline-block; }
