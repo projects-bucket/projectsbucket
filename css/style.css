@@ -56,7 +56,7 @@ blockquote, address { font-size: 1.4em; max-width: 48ch; margin: -1em auto 0; li
 cite, small { display: block; font-size: 85%; opacity: .6; }
 
 /* Logo */
-header { display: flex; padding-top: 0em; padding-bottom: 5.5em; position: static; z-index: 10; }
+header { display: flex; padding-top: 0em; padding-bottom: 1.5em; position: static; z-index: 10; }
 #site-name { font-size: 0; }
 #site-name img { width: 150px; max-width: 150px; }
 
@@ -87,13 +87,13 @@ header + svg + img { position: absolute; width: 45vw; max-width: 33em; right: 8v
 
 /* Page Content */
 main > p, main > h3, main > h4, main > h5, main > table, main > blockquote, main > address, main > ul, main > ol { margin-left: calc(120px + 10vw); max-width: 650px; }
-main div { padding: 5em 0; font-size: .95em; } 
-main p + div { padding-top: 3em; }
+main div { padding: 3em 0; font-size: .95em; } 
+main p + div { padding-top: 7em; }
 main div > h2:first-of-type { max-width: 28ch; margin: 0 auto .5em; text-align: center; font-weight: normal; font-family: "chalet-london-sixty", sans-serif; background: -webkit-gradient(linear, left top, right bottom, color-stop(45%, #414AD1), color-stop(55%, #8D5ECA)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 main div > h2:first-of-type + p { text-align: center; margin: 0 auto; padding-bottom: 4em; max-width: 48ch; line-height: 1.45; }
 h2.page-title { font-size: 3.6em; }
 main > p.page-description { max-width: 45ch; font-size: 1.15em; line-height: 1.75; margin-left: 0;     padding-bottom: 5em; }
-main > p.page-counter { padding: 3em 0; font-size: .9em; } 
+main > p.page-counter { padding: 1em 0; font-size: .9em; } 
 main > p.page-counter a::before { content: ''; display: inline-block; width: 4em; height: 1px; background: #8D5ECA; margin: 0 1.25em; position: relative; bottom: .25em;  }
 main div > ul { padding: 0; list-style: none; display: flex;  }
 main div li p { line-height: 1.6; padding: 0 0 1em; }
